@@ -5,7 +5,7 @@
 ⚡I'm currently studying BSc. Mathematics and Computer Science in JKUAT Main Campus.<br>🌱 I’m currently learning web development.<br>
 
 
-<h3> &nbsp; Let's Connect </h3>
+## Let's Connwct
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://linkedin.com/in/stevemuiga/) [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=Twitter&logoColor=white)](https://twitter.com/https://twitter.com/smuiga2) 
 
 <h3> &nbsp; Stack </h3>
