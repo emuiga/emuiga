@@ -1,4 +1,4 @@
-# Hello, I'm Steve Muiga. :waving hand:
+# Hello, I'm Steve Muiga. 👋
 
 <h3> &nbsp;👩🏾‍💻 About Me </h3>
 
