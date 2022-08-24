@@ -1,4 +1,4 @@
-# Hello, I'm Steve Muiga. :wave:
+# Hello, I'm Steve. :wave:
 
 <h3> &nbsp;👩🏾‍💻 About Me </h3>
 
