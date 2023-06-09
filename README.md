@@ -1,8 +1,8 @@
-# I'm Muiga. :wave:
+# I'm Muiga.
 
-<h3> &nbsp;👩🏾‍💻 About Me </h3>
+<h3> &nbsp;👩🏾‍💻 About </h3>
 
-⚡Student of Mathematics and Computer Science, JKUAT.<br>🌱 Learner.<br>
+⚡Student of Mathematics and Computer Science, JKUAT.<br>🌱 Learner.<br> 
 
 
 ## Let's Connect
