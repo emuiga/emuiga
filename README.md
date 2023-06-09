@@ -1,8 +1,8 @@
-# Hello, I'm Steve. :wave:
+# I'm Muiga. :wave:
 
 <h3> &nbsp;👩🏾‍💻 About Me </h3>
 
-⚡I'm currently studying BSc. Mathematics and Computer Science in JKUAT Main Campus.<br>🌱 I’m currently learning web development.<br>
+⚡Student of Mathematics and Computer Science, JKUAT.<br>🌱 Learner.<br>
 
 
 ## Let's Connect
