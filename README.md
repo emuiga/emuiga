@@ -3,7 +3,7 @@
 
 - 📊 I’m currently working on **an Ionic Angular application**
 
-- 🌱 I'm trying to learn **Arduino**
+- 🌱 I'm trying to learn **Arduino and embedded systems**
 
 - 📝 I write articles on [https://shorturl.at/sRZ18](https://shorturl.at/sRZ18)
 
