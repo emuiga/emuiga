@@ -1,4 +1,4 @@
-<h1 align="center">Hi 👋, I'm Muiga</h1>
+<h1 align="center">Hello 👋, I'm Muiga</h1>
 <h3 align="center">A passionate developer from Nairobi, Kenya</h3>
 
 - 📊 I’m currently working on **an Ionic Angular application**
