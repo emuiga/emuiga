@@ -5,7 +5,7 @@
 
 - 🌱 I'm trying to learn **Arduino and embedded systems**
 
-- 📝 I write articles on [https://shorturl.at/sRZ18](https://shorturl.at/sRZ18)
+- 📝 I write articles on [muiga-steve.hashnode.dev](https://muiga-steve.hashnode.dev/?source=top_nav_blog_home)
 
 - 💬 Ask me about **Mobile app development with Ionic, Applied Mathematics, and Fitness.**
 
