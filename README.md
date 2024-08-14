@@ -3,7 +3,7 @@
 
 - 📊 I’m currently working on **an IoT integrated Angular application**
 
-- 🌱 I'm trying to learn **Arduino and embedded systems**
+- 🌱 I'm trying to learn **backend development**
 
 - 📝 I write articles on [muiga-steve.hashnode.dev](https://muiga-steve.hashnode.dev/?source=top_nav_blog_home)
 
