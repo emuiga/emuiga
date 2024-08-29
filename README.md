@@ -3,8 +3,6 @@
 
 - 📊 I’m working on **an IoT integrated Angular application**
 
-- 🌱 I'm trying to learn **backend development**
-
 - 📫 How to reach me **muigastephen14@gmail.com**
 
 - ⚡ Fun fact **I'm probably rewatching GoT**
