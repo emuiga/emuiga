@@ -1,17 +1,13 @@
 <h1 align="center">Hello 👋, I'm Muiga</h1>
-<h3 align="center">A passionate developer from Nairobi, Kenya</h3>
+<h3 align="center">A dev from NBO, Kenya</h3>
 
-- 📊 I’m currently working on **an IoT integrated Angular application**
+- 📊 I’m working on **an IoT integrated Angular application**
 
 - 🌱 I'm trying to learn **backend development**
 
-- 📝 I write articles on [muiga-steve.hashnode.dev](https://muiga-steve.hashnode.dev/?source=top_nav_blog_home)
-
-- 💬 Ask me about **Web and Mobile app development with Ionic, Applied Mathematics, and Fitness.**
-
 - 📫 How to reach me **muigastephen14@gmail.com**
 
-- ⚡ Fun fact **I love cycling :)**
+- ⚡ Fun fact **I'm probably rewatching GoT**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
