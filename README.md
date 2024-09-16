@@ -1,11 +1,7 @@
 <h1 align="center">Hello 👋, I'm Muiga</h1>
 <h3 align="center">A dev from NBO, Kenya</h3>
 
-- 📊 I’m working on **an IoT integrated Angular application**
-
 - 📫 How to reach me **muigastephen14@gmail.com**
-
-- ⚡ Fun fact **I'm probably rewatching GoT**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
