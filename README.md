@@ -1,7 +1,7 @@
 <h1 align="center">Heyyy 👋, I'm Muiga</h1>
 <h3 align="center">A dev from NBO, Kenya</h3>
 
-<p align="center">Reach out **muigastephen14@gmail.com** </p>
+<p align="center">Hit me up</p> **muigastephen14@gmail.com** 
 
 <h3 align="center">Connect with me:</h3>
 <p align="center">
