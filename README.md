@@ -1,7 +1,7 @@
 <h1 align="center">Hello 👋, I'm Muiga</h1>
 <h3 align="center">A dev from NBO, Kenya</h3>
 
-- 📫 How to reach me **muigastephen14@gmail.com**
+<p align="center">- 📫 How to reach me **muigastephen14@gmail.com**</p>
 
 <h3 align="center">Connect with me:</h3>
 <p align="center">
