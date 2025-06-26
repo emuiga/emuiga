@@ -14,3 +14,6 @@
 <p align="center"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=emuiga&show_icons=true&locale=en&layout=compact" alt="emuiga" /></p>
 
 <p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=emuiga&" alt="emuiga" /></p>
+
+<h3 align="center">📊 Weekly Development Breakdown:</h3>
+<p align="center"><img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=emuiga&layout=compact" alt="emuiga" /></p>
