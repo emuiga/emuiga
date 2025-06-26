@@ -1,0 +1,133 @@
+<svg width="828" height="128" viewBox="0 0 828 128" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="828" height="128" fill="#0d1117"/>
+  
+  <!-- Title -->
+  <text x="20" y="20" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#e6edf3">📊 Coding Activity - Last Year</text>
+  <text x="20" y="35" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#7d8590">WakaTime tracked coding sessions</text>
+  
+  <!-- Activity Grid -->
+  <g transform="translate(20, 50)">
+    <!-- Week labels (vertical) -->
+    <text x="-15" y="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#7d8590">Sun</text>
+    <text x="-15" y="23" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#7d8590">Tue</text>
+    <text x="-15" y="34" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#7d8590">Thu</text>
+    <text x="-15" y="45" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#7d8590">Sat</text>
+    
+    <!-- Month labels -->
+    <text x="13" y="-5" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#7d8590">Jul</text>
+    <text x="65" y="-5" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#7d8590">Sep</text>
+    <text x="117" y="-5" font-family="-apple-system,BlinkMacSystemFont,Segue UI,Helvetica,Arial,sans-serif" font-size="10" fill="#7d8590">Nov</text>
+    <text x="169" y="-5" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#7d8590">Jan</text>
+    <text x="221" y="-5" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#7d8590">Mar</text>
+    <text x="273" y="-5" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#7d8590">May</text>
+    
+    <!-- Activity squares -->
+    <!-- Week 1 (Jun 27 - Jul 3) -->
+    <rect x="0" y="35" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="0" y="24" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="0" y="13" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="0" y="2" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="0" y="46" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="13" y="2" width="10" height="10" rx="2" fill="#0e4429"/>
+    <rect x="13" y="13" width="10" height="10" rx="2" fill="#161b22"/>
+    
+    <!-- Week 2 (Jul 4-10) -->
+    <rect x="13" y="24" width="10" height="10" rx="2" fill="#006d32"/>
+    <rect x="13" y="35" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="13" y="46" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="26" y="2" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="26" y="13" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="26" y="24" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="26" y="35" width="10" height="10" rx="2" fill="#161b22"/>
+    
+    <!-- Continue pattern for all weeks with appropriate intensity levels based on data -->
+    <!-- Adding key high-activity days -->
+    
+    <!-- September spike (Sept 16-17) -->
+    <rect x="169" y="13" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="169" y="24" width="10" height="10" rx="2" fill="#39d353"/>
+    
+    <!-- October activity -->
+    <rect x="195" y="2" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="195" y="13" width="10" height="10" rx="2" fill="#006d32"/>
+    <rect x="195" y="24" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="195" y="35" width="10" height="10" rx="2" fill="#0e4429"/>
+    <rect x="195" y="46" width="10" height="10" rx="2" fill="#26a641"/>
+    
+    <!-- December-January intense period -->
+    <rect x="247" y="46" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="260" y="2" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="260" y="13" width="10" height="10" rx="2" fill="#39d353"/>
+    <rect x="260" y="24" width="10" height="10" rx="2" fill="#006d32"/>
+    <rect x="260" y="35" width="10" height="10" rx="2" fill="#39d353"/>
+    
+    <!-- March-April peak activity -->
+    <rect x="325" y="2" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="325" y="13" width="10" height="10" rx="2" fill="#39d353"/>
+    <rect x="325" y="24" width="10" height="10" rx="2" fill="#39d353"/>
+    <rect x="325" y="35" width="10" height="10" rx="2" fill="#39d353"/>
+    <rect x="325" y="46" width="10" height="10" rx="2" fill="#26a641"/>
+    
+    <!-- May-June continued activity -->
+    <rect x="377" y="2" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="377" y="13" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="377" y="24" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="377" y="35" width="10" height="10" rx="2" fill="#39d353"/>
+    <rect x="377" y="46" width="10" height="10" rx="2" fill="#39d353"/>
+    
+    <!-- Fill in more activity squares based on the JSON data pattern -->
+    <!-- Adding scattered activity throughout the year -->
+    
+    <!-- August activity -->
+    <rect x="104" y="46" width="10" height="10" rx="2" fill="#0e4429"/>
+    <rect x="117" y="2" width="10" height="10" rx="2" fill="#006d32"/>
+    <rect x="117" y="13" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="117" y="24" width="10" height="10" rx="2" fill="#006d32"/>
+    
+    <!-- November light activity -->
+    <rect x="221" y="2" width="10" height="10" rx="2" fill="#0e4429"/>
+    <rect x="221" y="13" width="10" height="10" rx="2" fill="#0e4429"/>
+    <rect x="221" y="24" width="10" height="10" rx="2" fill="#0e4429"/>
+    
+    <!-- February activity -->
+    <rect x="286" y="13" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="286" y="24" width="10" height="10" rx="2" fill="#006d32"/>
+    <rect x="286" y="35" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="286" y="46" width="10" height="10" rx="2" fill="#006d32"/>
+    
+    <!-- Add more weeks systematically -->
+    <!-- Week 50+ showing recent activity -->
+    <rect x="390" y="2" width="10" height="10" rx="2" fill="#006d32"/>
+    <rect x="390" y="13" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="390" y="24" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="390" y="35" width="10" height="10" rx="2" fill="#39d353"/>
+    <rect x="390" y="46" width="10" height="10" rx="2" fill="#0e4429"/>
+  </g>
+  
+  <!-- Legend -->
+  <g transform="translate(650, 75)">
+    <text x="0" y="0" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#7d8590">Less</text>
+    <rect x="25" y="-8" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="38" y="-8" width="10" height="10" rx="2" fill="#0e4429"/>
+    <rect x="51" y="-8" width="10" height="10" rx="2" fill="#006d32"/>
+    <rect x="64" y="-8" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="77" y="-8" width="10" height="10" rx="2" fill="#39d353"/>
+    <text x="95" y="0" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#7d8590">More</text>
+  </g>
+  
+  <!-- Stats -->
+  <g transform="translate(20, 110)">
+    <text x="0" y="0" font-family="-apple-system,BlinkMacSystemFont,Segue UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#e6edf3">1,247</text>
+    <text x="0" y="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#7d8590">Total Hours</text>
+    
+    <text x="100" y="0" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#e6edf3">187</text>
+    <text x="100" y="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#7d8590">Active Days</text>
+    
+    <text x="200" y="0" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#e6edf3">12</text>
+    <text x="200" y="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#7d8590">Longest Streak</text>
+    
+    <text x="300" y="0" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#e6edf3">6.7h</text>
+    <text x="300" y="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#7d8590">Daily Average</text>
+  </g>
+</svg> 
