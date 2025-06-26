@@ -19,4 +19,7 @@
 <p align="center"><img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=Muiga&layout=compact" alt="emuiga" /></p>
 
 <h3 align="center">📈 Coding Activity:</h3>
-<p align="center"><img align="center" src="https://wakatime.com/share/@Muiga/2f7c2a8f-6c5b-4b8a-9d4f-1e3c5a7b9d2e.png" alt="WakaTime Activity Chart" /></p>
+<p align="center"><img align="center" src="https://wakatime.com/share/@Muiga/d86a63e2-389a-48e0-9dc4-5683830327bd.svg" alt="WakaTime Activity Chart" /></p>
+
+
+<figure><embed src="https://wakatime.com/share/@Muiga/d86a63e2-389a-48e0-9dc4-5683830327bd.svg"></embed></figure>
