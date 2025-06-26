@@ -13,11 +13,9 @@
 
 <p align="center"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=emuiga&show_icons=true&locale=en&layout=compact" alt="emuiga" /></p>
 
-<p align="center"><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=emuiga&" alt="emuiga" /></p>
+<p align="center"><img align="center" src="https://wakatime.com/share/@Muiga/d86a63e2-389a-48e0-9dc4-5683830327bd.svg" alt="WakaTime Activity Chart" /></p>
 
-<h3 align="center">📊 Weekly Development Breakdown:</h3>
 <p align="center"><img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=Muiga&layout=compact" alt="emuiga" /></p>
 
-<h3 align="center">📈 Coding Activity:</h3>
-<p align="center"><img align="center" src="https://wakatime.com/share/@Muiga/d86a63e2-389a-48e0-9dc4-5683830327bd.svg" alt="WakaTime Activity Chart" /></p>
+
 
