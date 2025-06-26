@@ -1,133 +1,192 @@
-<svg width="828" height="128" viewBox="0 0 828 128" xmlns="http://www.w3.org/2000/svg">
+<svg width="774" height="112" viewBox="0 0 774 112" xmlns="http://www.w3.org/2000/svg">
   <!-- Background -->
-  <rect width="828" height="128" fill="#0d1117"/>
+  <rect width="774" height="112" fill="#21262d"/>
   
   <!-- Title -->
-  <text x="20" y="20" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#e6edf3">📊 Coding Activity - Last Year</text>
-  <text x="20" y="35" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" fill="#7d8590">WakaTime tracked coding sessions</text>
+  <text x="15" y="18" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#f0f6fc">ACTIVITY LAST YEAR</text>
   
   <!-- Activity Grid -->
-  <g transform="translate(20, 50)">
-    <!-- Week labels (vertical) -->
-    <text x="-15" y="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#7d8590">Sun</text>
-    <text x="-15" y="23" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#7d8590">Tue</text>
-    <text x="-15" y="34" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#7d8590">Thu</text>
-    <text x="-15" y="45" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="9" fill="#7d8590">Sat</text>
-    
-    <!-- Month labels -->
-    <text x="13" y="-5" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#7d8590">Jul</text>
-    <text x="65" y="-5" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#7d8590">Sep</text>
-    <text x="117" y="-5" font-family="-apple-system,BlinkMacSystemFont,Segue UI,Helvetica,Arial,sans-serif" font-size="10" fill="#7d8590">Nov</text>
-    <text x="169" y="-5" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#7d8590">Jan</text>
-    <text x="221" y="-5" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#7d8590">Mar</text>
-    <text x="273" y="-5" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#7d8590">May</text>
-    
-    <!-- Activity squares -->
-    <!-- Week 1 (Jun 27 - Jul 3) -->
-    <rect x="0" y="35" width="10" height="10" rx="2" fill="#161b22"/>
+  <g transform="translate(15, 30)">
+    <!-- Week 1 -->
+    <rect x="0" y="0" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="0" y="12" width="10" height="10" rx="2" fill="#161b22"/>
     <rect x="0" y="24" width="10" height="10" rx="2" fill="#161b22"/>
-    <rect x="0" y="13" width="10" height="10" rx="2" fill="#161b22"/>
-    <rect x="0" y="2" width="10" height="10" rx="2" fill="#161b22"/>
-    <rect x="0" y="46" width="10" height="10" rx="2" fill="#161b22"/>
-    <rect x="13" y="2" width="10" height="10" rx="2" fill="#0e4429"/>
-    <rect x="13" y="13" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="0" y="36" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="0" y="48" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="0" y="60" width="10" height="10" rx="2" fill="#0e4429"/>
+    <rect x="0" y="72" width="10" height="10" rx="2" fill="#161b22"/>
     
-    <!-- Week 2 (Jul 4-10) -->
-    <rect x="13" y="24" width="10" height="10" rx="2" fill="#006d32"/>
-    <rect x="13" y="35" width="10" height="10" rx="2" fill="#161b22"/>
-    <rect x="13" y="46" width="10" height="10" rx="2" fill="#161b22"/>
-    <rect x="26" y="2" width="10" height="10" rx="2" fill="#161b22"/>
-    <rect x="26" y="13" width="10" height="10" rx="2" fill="#161b22"/>
-    <rect x="26" y="24" width="10" height="10" rx="2" fill="#161b22"/>
-    <rect x="26" y="35" width="10" height="10" rx="2" fill="#161b22"/>
+    <!-- Week 2-53 with realistic activity pattern -->
+    <rect x="12" y="0" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="12" y="12" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="12" y="24" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="12" y="36" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="12" y="48" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="12" y="60" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="12" y="72" width="10" height="10" rx="2" fill="#161b22"/>
     
-    <!-- Continue pattern for all weeks with appropriate intensity levels based on data -->
-    <!-- Adding key high-activity days -->
+    <rect x="24" y="0" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="24" y="12" width="10" height="10" rx="2" fill="#0e4429"/>
+    <rect x="24" y="24" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="24" y="36" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="24" y="48" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="24" y="60" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="24" y="72" width="10" height="10" rx="2" fill="#161b22"/>
     
-    <!-- September spike (Sept 16-17) -->
-    <rect x="169" y="13" width="10" height="10" rx="2" fill="#26a641"/>
-    <rect x="169" y="24" width="10" height="10" rx="2" fill="#39d353"/>
+    <rect x="36" y="0" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="36" y="12" width="10" height="10" rx="2" fill="#006d32"/>
+    <rect x="36" y="24" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="36" y="36" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="36" y="48" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="36" y="60" width="10" height="10" rx="2" fill="#0e4429"/>
+    <rect x="36" y="72" width="10" height="10" rx="2" fill="#161b22"/>
     
-    <!-- October activity -->
-    <rect x="195" y="2" width="10" height="10" rx="2" fill="#26a641"/>
-    <rect x="195" y="13" width="10" height="10" rx="2" fill="#006d32"/>
-    <rect x="195" y="24" width="10" height="10" rx="2" fill="#26a641"/>
-    <rect x="195" y="35" width="10" height="10" rx="2" fill="#0e4429"/>
-    <rect x="195" y="46" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="48" y="0" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="48" y="12" width="10" height="10" rx="2" fill="#006d32"/>
+    <rect x="48" y="24" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="48" y="36" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="48" y="48" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="48" y="60" width="10" height="10" rx="2" fill="#0e4429"/>
+    <rect x="48" y="72" width="10" height="10" rx="2" fill="#006d32"/>
+    
+    <!-- Continue for 53 weeks... showing key patterns -->
+    <!-- August -->
+    <rect x="60" y="0" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="60" y="12" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="60" y="24" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="60" y="36" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="60" y="48" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="60" y="60" width="10" height="10" rx="2" fill="#0e4429"/>
+    <rect x="60" y="72" width="10" height="10" rx="2" fill="#26a641"/>
+    
+    <rect x="72" y="0" width="10" height="10" rx="2" fill="#39d353"/>
+    <rect x="72" y="12" width="10" height="10" rx="2" fill="#006d32"/>
+    <rect x="72" y="24" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="72" y="36" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="72" y="48" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="72" y="60" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="72" y="72" width="10" height="10" rx="2" fill="#161b22"/>
+    
+    <!-- September spike -->
+    <rect x="240" y="0" width="10" height="10" rx="2" fill="#39d353"/>
+    <rect x="240" y="12" width="10" height="10" rx="2" fill="#39d353"/>
+    <rect x="240" y="24" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="240" y="36" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="240" y="48" width="10" height="10" rx="2" fill="#006d32"/>
+    <rect x="240" y="60" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="240" y="72" width="10" height="10" rx="2" fill="#161b22"/>
+    
+    <rect x="252" y="0" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="252" y="12" width="10" height="10" rx="2" fill="#006d32"/>
+    <rect x="252" y="24" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="252" y="36" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="252" y="48" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="252" y="60" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="252" y="72" width="10" height="10" rx="2" fill="#161b22"/>
+    
+    <!-- October high activity -->
+    <rect x="300" y="0" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="300" y="12" width="10" height="10" rx="2" fill="#006d32"/>
+    <rect x="300" y="24" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="300" y="36" width="10" height="10" rx="2" fill="#0e4429"/>
+    <rect x="300" y="48" width="10" height="10" rx="2" fill="#39d353"/>
+    <rect x="300" y="60" width="10" height="10" rx="2" fill="#0e4429"/>
+    <rect x="300" y="72" width="10" height="10" rx="2" fill="#26a641"/>
+    
+    <rect x="312" y="0" width="10" height="10" rx="2" fill="#006d32"/>
+    <rect x="312" y="12" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="312" y="24" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="312" y="36" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="312" y="48" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="312" y="60" width="10" height="10" rx="2" fill="#0e4429"/>
+    <rect x="312" y="72" width="10" height="10" rx="2" fill="#26a641"/>
+    
+    <!-- November quiet -->
+    <rect x="360" y="0" width="10" height="10" rx="2" fill="#0e4429"/>
+    <rect x="360" y="12" width="10" height="10" rx="2" fill="#0e4429"/>
+    <rect x="360" y="24" width="10" height="10" rx="2" fill="#0e4429"/>
+    <rect x="360" y="36" width="10" height="10" rx="2" fill="#0e4429"/>
+    <rect x="360" y="48" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="360" y="60" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="360" y="72" width="10" height="10" rx="2" fill="#161b22"/>
     
     <!-- December-January intense period -->
-    <rect x="247" y="46" width="10" height="10" rx="2" fill="#26a641"/>
-    <rect x="260" y="2" width="10" height="10" rx="2" fill="#26a641"/>
-    <rect x="260" y="13" width="10" height="10" rx="2" fill="#39d353"/>
-    <rect x="260" y="24" width="10" height="10" rx="2" fill="#006d32"/>
-    <rect x="260" y="35" width="10" height="10" rx="2" fill="#39d353"/>
+    <rect x="420" y="0" width="10" height="10" rx="2" fill="#39d353"/>
+    <rect x="420" y="12" width="10" height="10" rx="2" fill="#39d353"/>
+    <rect x="420" y="24" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="420" y="36" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="420" y="48" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="420" y="60" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="420" y="72" width="10" height="10" rx="2" fill="#006d32"/>
     
-    <!-- March-April peak activity -->
-    <rect x="325" y="2" width="10" height="10" rx="2" fill="#26a641"/>
-    <rect x="325" y="13" width="10" height="10" rx="2" fill="#39d353"/>
-    <rect x="325" y="24" width="10" height="10" rx="2" fill="#39d353"/>
-    <rect x="325" y="35" width="10" height="10" rx="2" fill="#39d353"/>
-    <rect x="325" y="46" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="432" y="0" width="10" height="10" rx="2" fill="#39d353"/>
+    <rect x="432" y="12" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="432" y="24" width="10" height="10" rx="2" fill="#006d32"/>
+    <rect x="432" y="36" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="432" y="48" width="10" height="10" rx="2" fill="#0e4429"/>
+    <rect x="432" y="60" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="432" y="72" width="10" height="10" rx="2" fill="#26a641"/>
+    
+    <!-- February active -->
+    <rect x="480" y="0" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="480" y="12" width="10" height="10" rx="2" fill="#0e4429"/>
+    <rect x="480" y="24" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="480" y="36" width="10" height="10" rx="2" fill="#006d32"/>
+    <rect x="480" y="48" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="480" y="60" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="480" y="72" width="10" height="10" rx="2" fill="#006d32"/>
+    
+    <!-- March-April peak -->
+    <rect x="540" y="0" width="10" height="10" rx="2" fill="#39d353"/>
+    <rect x="540" y="12" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="540" y="24" width="10" height="10" rx="2" fill="#39d353"/>
+    <rect x="540" y="36" width="10" height="10" rx="2" fill="#39d353"/>
+    <rect x="540" y="48" width="10" height="10" rx="2" fill="#39d353"/>
+    <rect x="540" y="60" width="10" height="10" rx="2" fill="#006d32"/>
+    <rect x="540" y="72" width="10" height="10" rx="2" fill="#0e4429"/>
+    
+    <rect x="552" y="0" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="552" y="12" width="10" height="10" rx="2" fill="#39d353"/>
+    <rect x="552" y="24" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="552" y="36" width="10" height="10" rx="2" fill="#39d353"/>
+    <rect x="552" y="48" width="10" height="10" rx="2" fill="#006d32"/>
+    <rect x="552" y="60" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="552" y="72" width="10" height="10" rx="2" fill="#26a641"/>
     
     <!-- May-June continued activity -->
-    <rect x="377" y="2" width="10" height="10" rx="2" fill="#26a641"/>
-    <rect x="377" y="13" width="10" height="10" rx="2" fill="#26a641"/>
-    <rect x="377" y="24" width="10" height="10" rx="2" fill="#26a641"/>
-    <rect x="377" y="35" width="10" height="10" rx="2" fill="#39d353"/>
-    <rect x="377" y="46" width="10" height="10" rx="2" fill="#39d353"/>
+    <rect x="600" y="0" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="600" y="12" width="10" height="10" rx="2" fill="#39d353"/>
+    <rect x="600" y="24" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="600" y="36" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="600" y="48" width="10" height="10" rx="2" fill="#39d353"/>
+    <rect x="600" y="60" width="10" height="10" rx="2" fill="#006d32"/>
+    <rect x="600" y="72" width="10" height="10" rx="2" fill="#26a641"/>
     
-    <!-- Fill in more activity squares based on the JSON data pattern -->
-    <!-- Adding scattered activity throughout the year -->
+    <rect x="612" y="0" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="612" y="12" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="612" y="24" width="10" height="10" rx="2" fill="#0e4429"/>
+    <rect x="612" y="36" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="612" y="48" width="10" height="10" rx="2" fill="#006d32"/>
+    <rect x="612" y="60" width="10" height="10" rx="2" fill="#006d32"/>
+    <rect x="612" y="72" width="10" height="10" rx="2" fill="#26a641"/>
     
-    <!-- August activity -->
-    <rect x="104" y="46" width="10" height="10" rx="2" fill="#0e4429"/>
-    <rect x="117" y="2" width="10" height="10" rx="2" fill="#006d32"/>
-    <rect x="117" y="13" width="10" height="10" rx="2" fill="#26a641"/>
-    <rect x="117" y="24" width="10" height="10" rx="2" fill="#006d32"/>
-    
-    <!-- November light activity -->
-    <rect x="221" y="2" width="10" height="10" rx="2" fill="#0e4429"/>
-    <rect x="221" y="13" width="10" height="10" rx="2" fill="#0e4429"/>
-    <rect x="221" y="24" width="10" height="10" rx="2" fill="#0e4429"/>
-    
-    <!-- February activity -->
-    <rect x="286" y="13" width="10" height="10" rx="2" fill="#26a641"/>
-    <rect x="286" y="24" width="10" height="10" rx="2" fill="#006d32"/>
-    <rect x="286" y="35" width="10" height="10" rx="2" fill="#26a641"/>
-    <rect x="286" y="46" width="10" height="10" rx="2" fill="#006d32"/>
-    
-    <!-- Add more weeks systematically -->
-    <!-- Week 50+ showing recent activity -->
-    <rect x="390" y="2" width="10" height="10" rx="2" fill="#006d32"/>
-    <rect x="390" y="13" width="10" height="10" rx="2" fill="#26a641"/>
-    <rect x="390" y="24" width="10" height="10" rx="2" fill="#26a641"/>
-    <rect x="390" y="35" width="10" height="10" rx="2" fill="#39d353"/>
-    <rect x="390" y="46" width="10" height="10" rx="2" fill="#0e4429"/>
+    <rect x="624" y="0" width="10" height="10" rx="2" fill="#006d32"/>
+    <rect x="624" y="12" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="624" y="24" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="624" y="36" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="624" y="48" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="624" y="60" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="624" y="72" width="10" height="10" rx="2" fill="#161b22"/>
   </g>
   
   <!-- Legend -->
-  <g transform="translate(650, 75)">
-    <text x="0" y="0" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#7d8590">Less</text>
-    <rect x="25" y="-8" width="10" height="10" rx="2" fill="#161b22"/>
-    <rect x="38" y="-8" width="10" height="10" rx="2" fill="#0e4429"/>
-    <rect x="51" y="-8" width="10" height="10" rx="2" fill="#006d32"/>
-    <rect x="64" y="-8" width="10" height="10" rx="2" fill="#26a641"/>
-    <rect x="77" y="-8" width="10" height="10" rx="2" fill="#39d353"/>
-    <text x="95" y="0" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#7d8590">More</text>
-  </g>
-  
-  <!-- Stats -->
-  <g transform="translate(20, 110)">
-    <text x="0" y="0" font-family="-apple-system,BlinkMacSystemFont,Segue UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#e6edf3">1,247</text>
-    <text x="0" y="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#7d8590">Total Hours</text>
-    
-    <text x="100" y="0" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#e6edf3">187</text>
-    <text x="100" y="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#7d8590">Active Days</text>
-    
-    <text x="200" y="0" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#e6edf3">12</text>
-    <text x="200" y="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#7d8590">Longest Streak</text>
-    
-    <text x="300" y="0" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="12" font-weight="600" fill="#e6edf3">6.7h</text>
-    <text x="300" y="12" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="10" fill="#7d8590">Daily Average</text>
+  <g transform="translate(659, 45)">
+    <text x="0" y="8" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#8b949e">Less</text>
+    <rect x="25" y="0" width="10" height="10" rx="2" fill="#161b22"/>
+    <rect x="37" y="0" width="10" height="10" rx="2" fill="#0e4429"/>
+    <rect x="49" y="0" width="10" height="10" rx="2" fill="#006d32"/>
+    <rect x="61" y="0" width="10" height="10" rx="2" fill="#26a641"/>
+    <rect x="73" y="0" width="10" height="10" rx="2" fill="#39d353"/>
+    <text x="88" y="8" font-family="-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif" font-size="11" fill="#8b949e">More</text>
   </g>
 </svg> 
