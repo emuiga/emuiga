@@ -1,4 +1,4 @@
-<h1 align="center">Hello 👋, I'm Muiga</h1>
+<h1 align="center">Heyy 👋, I'm Muiga</h1>
 <h3 align="center">A guy building solutions from the heart of Kenya</h3>
 
 <p align="center">Hit me up @muigastephen14@gmail.com </p>
