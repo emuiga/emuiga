@@ -1,21 +1,129 @@
-<h1 align="center">Hello 👋, I'm Muiga</h1>
-<h3 align="center">A guy building solutions from the heart of Kenya</h3>
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=160&section=header&text=Stephen%20Muiga&fontSize=42&fontColor=ffffff&animation=fadeIn" width="100%"/>
+</div>
 
-<p align="center">Hit me up @muigastephen14@gmail.com </p>
+<div align="center">
 
-<h3 align="center">Connect with me:</h3>
-<p align="center">
-<a href="https://www.linkedin.com/in/stevemuiga/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="https://www.linkedin.com/in/stevemuiga/" height="30" width="40" /></a>
-</p>
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2500&pause=1200&color=2DB349&center=true&vCenter=true&width=800&lines=Software+Developer;Frontend+%7C+Full-Stack;Building+Scalable+Web+Products)](https://git.io/typing-svg)
 
-<h3 align="center">Languages and Tools:</h3>
-<p align="center"> <a href="https://angular.io" target="_blank" rel="noreferrer"> <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="40" height="40"/> </a> </a> <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://graphql.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/graphql/graphql-icon.svg" alt="graphql" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://ionicframework.com" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/d/d1/Ionic_Logo.svg" alt="ionic" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://www.mathworks.com/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
+</div>
 
-<p align="center"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=emuiga&show_icons=true&locale=en&layout=compact" alt="emuiga" /></p>
+---
 
-<p align="center"><img align="center" src="https://wakatime.com/share/@Muiga/d86a63e2-389a-48e0-9dc4-5683830327bd.svg" alt="WakaTime Activity Chart" /></p>
+<div align="center">
 
-<p align="center"><img align="center" src="https://github-readme-stats.vercel.app/api/wakatime?username=Muiga&layout=compact" alt="emuiga" /></p>
+```ascii
+┌───────────────────────────────────────────────┐
+│  ⚡ Turning ideas into reliable software      │
+│  🧩 Frontend systems, APIs & real products    │
+│  🚀 Built for scale, speed & real users       │
+└───────────────────────────────────────────────┘
+</div> <img align="right" width="380" src="https://raw.githubusercontent.com/abhisheknaiidu/abhisheknaiidu/master/code.gif"/>
+👋 About Me
+const stephen = {
+  location: "Nairobi, Kenya 🇰🇪",
+  role: "Software Developer",
+  focus: ["Frontend Engineering", "Product Systems", "APIs"],
+  background: "BSc Mathematics & Computer Science",
+  currentlyBuilding: "FinTech, logistics & data-driven platforms",
+  values: ["clarity", "performance", "ownership"],
+};
+I’m a product-focused software developer who enjoys replacing manual workflows with clean, reliable systems.
+Most of my work lives at the intersection of frontend architecture, APIs, payments, and real business logic.
+
+<br clear="right"/>
+🔍 Current Focus
+<table> <tr> <td width="50%">
+🛠 Building
+FinTech & logistics platforms
+
+Clearing & forwarding automation systems
+
+M-Pesa & payment-driven workflows
+
+Scalable React & Next.js frontends
+
+</td> <td width="50%">
+📚 Growing
+Advanced React & component architecture
+
+Web performance & UX optimization
+
+System design for production apps
+
+Cloud & DevOps fundamentals
+
+</td> </tr> </table>
+🧠 Tech Stack
+🎨 Frontend
 
 
 
+
+
+⚙️ Backend & APIs
+
+
+
+
+
+☁️ DevOps & Data
+
+
+
+
+💼 Experience Snapshot
+KIFWA:
+  Role: Software Developer
+  Impact:
+    - Digitized clearing & forwarding workflows
+    - Reduced processing time by 35%
+    - Built secure M-Pesa payment flows
+
+Pacaya:
+  Role: Frontend Developer
+  Impact:
+    - +25% organic traffic via SEO
+    - +40% engagement with real-time features
+    - Optimized client-side performance
+
+Furaha Ventures:
+  Role: Software Developer Intern
+  Focus:
+    - IoT dashboards
+    - GraphQL APIs
+    - Real-time warehouse insights
+🚀 Selected Projects
+<table> <tr> <td width="50%">
+KIFWA Clearing Platform
+Next.js · Spring Boot · Tailwind
+
+End-to-end clearing & forwarding engine
+
+Reduced manual workflows by 40%
+
+Production-ready with 99% uptime
+
+</td> <td width="50%">
+Origin (Studio)
+React · NestJS · PostgreSQL · Docker
+
+Co-founded a product & engineering studio
+
+Built MVPs for startups & SMEs
+
+90%+ delivery success rate
+
+</td> </tr> </table>
+📊 GitHub Analytics
+<div align="center"> <img height="170" src="https://github-readme-stats.vercel.app/api?username=emuiga&show_icons=true&theme=tokyonight&hide_border=true"/> <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=emuiga&layout=compact&theme=tokyonight&hide_border=true"/> </div> <div align="center"> <img src="https://github-readme-streak-stats.herokuapp.com/?user=emuiga&theme=tokyonight&hide_border=true&background=0D1117&ring=2DB349&fire=EF383E&currStreakLabel=C9D1D9"/> </div>
+📫 Let’s Connect
+<div align="center">
+
+
+
+</div>
+<div align="center"> <img src="https://capsule-render.vercel.app/api?type=rect&color=gradient&customColorList=6,11,20&height=90&section=footer" width="100%"/> </div> <div align="center">
+“Build things that actually get used.”
+
+</div> ```
