@@ -92,9 +92,6 @@ I’m a **product-focused developer** working to replace manual processes with s
 <div align="center">
   <img src="https://img.shields.io/badge/Years_of_Experience-4+-001524?style=for-the-badge&logo=github&logoColor=ff7d00" alt="Years of Experience"/>
 </div>
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=emuiga&theme=tokyonight&hide_border=true"/>
-</div>
 
 <hr/>
 
