@@ -5,7 +5,7 @@
   />
 </div>
 
-<div align="center">
+<div align="center"
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=2500&pause=1200&color=FF7D00&center=true&vCenter=true&width=800&lines=Software+Developer;Frontend+%7C+Full-Stack;)](https://git.io/typing-svg)
 
