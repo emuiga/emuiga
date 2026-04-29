@@ -35,12 +35,9 @@
 
 I'm **Steve Muiga**, a software developer based in **Kenya 🇰🇪**.
 
-My work focuses on **frontend engineering**, **API-driven systems**, and **product logic**.
+My work focuses on **fullstack engineering**, **API-driven systems**, and **product logic**.
 I’m a **product-focused developer** working to replace manual processes with scalable software — especially at the intersection of **frontend architecture, APIs, payments, and real business logic**.
 
-### Current Focus
-
-🛠 Building finTech & logistics platforms for clearing & forwarding automation  
 
 
 </td>
