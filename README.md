@@ -20,7 +20,7 @@
   <sub>
     🧩 APIs &nbsp;•&nbsp;
     🚀 Product ownership &nbsp;•&nbsp;
-    🧠 Frontend
+    🧠 FullStack
   </sub>
 </p>
 
