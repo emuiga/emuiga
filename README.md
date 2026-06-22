@@ -108,7 +108,7 @@ I’m a **product-focused developer** working to replace manual processes with s
     <img src="https://img.shields.io/badge/GitHub-Follow-001524?style=for-the-badge&logo=github&logoColor=ff7d00" alt="GitHub"/>
   </a>
 
-  <a href="https://steve-muiga.vercel.app" target="_blank">
+  <a href="https://theunfoldedorigami.com" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-Visit-001524?style=for-the-badge&logo=google-chrome&logoColor=ff7d00" alt="Portfolio"/>
   </a>
 
