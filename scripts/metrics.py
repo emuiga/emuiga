@@ -39,18 +39,25 @@ for r in repos:
     except Exception as e:
         print(f"skip {r['name']}: {e}", file=sys.stderr)
 
-# contributions, streaks, orgs
-data = graphql('{user(login:"%s"){organizations(first:20){nodes{name login}} contributionsCollection{contributionCalendar{totalContributions weeks{contributionDays{date contributionCount}}}}}}' % USER)["user"]
-cal = data["contributionsCollection"]["contributionCalendar"]
-days = sorted((date.fromisoformat(d["date"]), d["contributionCount"]) for w in cal["weeks"] for d in w["contributionDays"])
-active = {d for d, c in days if c > 0}
+# contributions (all time + past year), streaks, orgs
+years = graphql('{user(login:"%s"){contributionsCollection{contributionYears}}}' % USER)["user"]["contributionsCollection"]["contributionYears"]
+YEAR_Q = ' '.join(
+    'y%d: contributionsCollection(from:"%d-01-01T00:00:00Z", to:"%d-12-31T23:59:59Z"){contributionCalendar{totalContributions weeks{contributionDays{date contributionCount}}}}' % (y, y, y)
+    for y in years)
+data = graphql('{user(login:"%s"){organizations(first:20){nodes{name login}} %s recent: contributionsCollection{contributionCalendar{totalContributions}}}}' % (USER, YEAR_Q))["user"]
+days = {}
+for y in years:
+    for w in data[f"y{y}"]["contributionCalendar"]["weeks"]:
+        for d in w["contributionDays"]:
+            days[date.fromisoformat(d["date"])] = d["contributionCount"]
+all_time = sum(data[f"y{y}"]["contributionCalendar"]["totalContributions"] for y in years)
+past_year = data["recent"]["contributionCalendar"]["totalContributions"]
+active = {d for d, c in days.items() if c > 0}
 longest = run = 0
-prev = None
-for d, c in days:
-    run = run + 1 if c > 0 and prev is not None and prev == d - timedelta(days=1) and (d - timedelta(days=1)) in active else (1 if c > 0 else 0)
+for d in sorted(active):
+    run = run + 1 if d - timedelta(days=1) in active else 1
     longest = max(longest, run)
-    prev = d
-today = days[-1][0]
+today = max(days)
 cur, d = 0, today if today in active else today - timedelta(days=1)  # today may not have activity yet
 while d in active:
     cur += 1
@@ -60,48 +67,56 @@ orgs = [o["name"] or o["login"] for o in data["organizations"]["nodes"]]
 PALETTE = ["#e86c3d", "#8abf98", "#2e6849", "#c4935a", "#5f9f7a", "#15616d"]
 total = sum(langs.values()) or 1
 top = langs.most_common(6)
+ICONS = json.load(open(os.path.join(os.path.dirname(__file__), "icons.json")))
 
-W, PAD, GAP = 495, 20, 10
-BG, TILE, SAGE, ORANGE, BEIGE = "#042f2e", "#0a423d", "#8abf98", "#e86c3d", "#f0e6d2"
+# Square badge blocks: dark icon tile + solid green label, full width, no rounding.
+W, GAP, H1 = 830, 6, 56
+DARK, GREEN, SAGE, ORANGE, WHITE = "#0e1a14", "#2e6849", "#8abf98", "#e86c3d", "#ffffff"
 out = []
 
-# stat tiles
-tw = (W - 2 * PAD - 2 * GAP) / 3
-for i, (n, label) in enumerate([(cal["totalContributions"], "contributions, past year"), (cur, "day streak"), (longest, "longest streak")]):
-    x = PAD + i * (tw + GAP)
-    out.append(f'<rect x="{x:.1f}" y="{PAD}" width="{tw:.1f}" height="74" rx="8" fill="{TILE}"/>')
-    out.append(f'<text x="{x+14:.1f}" y="{PAD+38}" font-size="26" font-weight="700" fill="{ORANGE}">{n:,}</text>')
-    out.append(f'<text x="{x+14:.1f}" y="{PAD+58}" font-size="11" fill="{SAGE}">{label}</text>')
+def icon(name, x, y, size=24):
+    k = size / 16
+    paths = "".join(f'<path d="{d}"/>' for d in ICONS[name])
+    return f'<g transform="translate({x},{y}) scale({k})" fill="{ORANGE}">{paths}</g>'
 
-# top language tile with proportion bar
-y = PAD + 74 + GAP
-out.append(f'<rect x="{PAD}" y="{y}" width="{W-2*PAD}" height="78" rx="8" fill="{TILE}"/>')
-out.append(f'<text x="{PAD+14}" y="{y+24}" font-size="11" font-weight="600" fill="{ORANGE}">TOP LANGUAGE</text>')
+def block(x, y, w, h, ico, label, value=None, extra=""):
+    o = [f'<rect x="{x}" y="{y}" width="{h}" height="{h}" fill="{DARK}"/>', icon(ico, x + (h - 24) / 2, y + (h - 24) / 2),
+         f'<rect x="{x+h}" y="{y}" width="{w-h}" height="{h}" fill="{GREEN}"/>']
+    tx = x + h + 16
+    if value is None:
+        o.append(f'<text x="{tx}" y="{y+h/2+5}" font-size="12" font-weight="700" letter-spacing=".5" fill="{WHITE}">{escape(label.upper())}</text>')
+    else:
+        o.append(f'<text x="{tx}" y="{y+22}" font-size="11" font-weight="600" letter-spacing=".5" fill="{SAGE}">{escape(label.upper())}</text>')
+        o.append(f'<text x="{tx}" y="{y+45}" font-size="22" font-weight="700" fill="{WHITE}">{value}</text>')
+    return o + [extra]
+
+bw = (W - 3 * GAP) / 4
+for i, (ico, label, val) in enumerate([("graph", "All time", f"{all_time:,}"), ("calendar", "Past year", f"{past_year:,}"),
+                                        ("flame", "Streak", f"{cur} days"), ("trophy", "Best streak", f"{longest} days")]):
+    out += block(i * (bw + GAP), 0, bw, H1, ico, label, val)
+
+# top language, with proportion bar
+y = H1 + GAP
 name, b = top[0]
-out.append(f'<text x="{PAD+14}" y="{y+50}" font-size="20" font-weight="700" fill="{BEIGE}">{escape(name)}</text>')
-out.append(f'<text x="{PAD+14+11*len(name)+18}" y="{y+50}" font-size="14" fill="{SAGE}">{100*b/total:.0f}%</text>')
-x, barw = PAD + 14, W - 2 * PAD - 28
+out += block(0, y, W, H1, "code", "Top language", escape(name))
+out.append(f'<text x="{H1 + 16 + 13 * len(name) + 12}" y="{y+45}" font-size="14" font-weight="700" fill="{SAGE}">{100*b/total:.0f}%</text>')
+x, bx, barw = 0, W * 0.5, W * 0.5 - 16
 for i, (n, v) in enumerate(top):
     w = barw * v / total
-    out.append(f'<rect x="{x:.1f}" y="{y+60}" width="{w:.1f}" height="6" fill="{PALETTE[i]}"/>')
+    out.append(f'<rect x="{bx + x:.1f}" y="{y + H1/2 - 4}" width="{w:.1f}" height="8" fill="{PALETTE[i]}"/>')
     x += w
 
-# organizations as solid pills
-y += 78 + GAP
-out.append(f'<rect x="{PAD}" y="{y}" width="{W-2*PAD}" height="__H__" rx="8" fill="{TILE}"/>')
-out.append(f'<text x="{PAD+14}" y="{y+24}" font-size="11" font-weight="600" fill="{ORANGE}">ORGANIZATIONS</text>')
-px, py = PAD + 14, y + 36
+# organizations: same square badge, wrapped across the full width
+y += H1 + GAP
+ox, oy, OH = 0, y, 40
 for o in orgs:
-    pw = 8 * len(o) + 22
-    if px + pw > W - PAD - 14:
-        px, py = PAD + 14, py + 32
-    out.append(f'<rect x="{px}" y="{py}" width="{pw}" height="24" rx="12" fill="#2e6849"/>')
-    out.append(f'<text x="{px+11}" y="{py+16}" font-size="12" fill="{BEIGE}">{escape(o)}</text>')
-    px += pw + 8
-orgh = py + 24 + 14 - y
-H = y + orgh + PAD
-body = "\n".join(out).replace("__H__", str(orgh))
+    ow = OH + 32 + 10.5 * len(o)
+    if ox + ow > W:
+        ox, oy = 0, oy + OH + GAP
+    out += block(ox, oy, ow, OH, "organization", o)
+    ox += ow + GAP
+H = oy + OH
 svg = (f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}" '
-       f'font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif"><rect width="{W}" height="{H}" rx="12" fill="{BG}"/>\n{body}\n</svg>')
+       f'font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">\n' + "\n".join(out) + "\n</svg>")
 open("github-metrics.svg", "w").write(svg)
-print(cal["totalContributions"], cur, longest, top[0], orgs)
+print(all_time, past_year, cur, longest, top[0], orgs)
