@@ -12,7 +12,7 @@
 
 ## Things I've built:
 
-- 🛠️ **Kifwa**: service provider platform
+- 🛠️ **KIFWA**: multi-tenant bond and indemnity platform for 2,000+ clearing agents, insurers and freight providers
 - 💸 **KayaSend**: remittances for the Kenyan diaspora
 - 🏆 **E4CInsights**: AI policy synthesis tool (prize winner)
 
