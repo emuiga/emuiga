@@ -1,12 +1,12 @@
 ## Hi there 👋
 
-<img src="./hero-3.svg" alt="Muiga, Software Developer | Full-Stack" width="100%" />
+<img src="./hero-4.svg" alt="Muiga, Software Developer | Full-Stack" width="100%" />
 
 ## Here's a bit about me:
 
 - 💻 I'm a **full-stack developer** based in Nairobi, Kenya 🇰🇪
 - 🎓 BSc in **Mathematics & Computer Science**
-- 🧩 I build **APIs, payments and product logic**, replacing manual processes with software
+- 🧩 I build **UI, APIs, payments and product logic**, replacing manual processes with software
 - 🌱 Ask me about: TypeScript, React, Next.js, NestJS, Node.js, PostgreSQL
 - 📝 I write and keep notes at [The Unfolded Origami](https://theunfoldedorigami.com), *ideas, slowly unfolded*
 
