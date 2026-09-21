@@ -4,24 +4,11 @@
 
 ## Here's a bit about me:
 
-<table>
-<tr>
-<td width="60%" valign="top">
-
 - 💻 I'm a **full-stack developer** based in Nairobi, Kenya 🇰🇪
 - 🎓 BSc in **Mathematics & Computer Science**
 - 🧩 I build **APIs, payments and product logic**, replacing manual processes with software
 - 🌱 Ask me about: TypeScript, React, Next.js, NestJS, Node.js, PostgreSQL
 - 📝 I write and keep notes at [The Unfolded Origami](https://theunfoldedorigami.com), *ideas, slowly unfolded*
-
-</td>
-<td width="40%" align="center">
-
-<img src="./laptop.gif" width="420" alt="Coding at sunset" />
-
-</td>
-</tr>
-</table>
 
 ## Things I've built:
 
