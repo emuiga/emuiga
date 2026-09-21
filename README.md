@@ -12,10 +12,8 @@
 
 ## Things I've built:
 
+- 🛠️ **Kifwa**: service provider platform
 - 💸 **KayaSend**: remittances for the Kenyan diaspora
-- ☁️ **Bechfam**: AWS consulting platform
-- 🥾 **Roam Adventures**: hiking community platform
-- 📦 **Movvapp**: moving services marketplace
 - 🏆 **E4CInsights**: AI policy synthesis tool (prize winner)
 
 More on my [portfolio](https://theunfoldedorigami.com).
