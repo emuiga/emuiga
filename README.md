@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-<img src="./github-metrics.svg" alt="Steve's GitHub metrics" width="100%" />
+<img src="./banner.jpg" alt="Muiga" width="100%" />
 
 ## Here's a bit about me:
 
