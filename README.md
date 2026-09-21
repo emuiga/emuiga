@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-<img src="./banner.jpg" alt="Muiga" width="100%" />
+<img src="./banner-2.jpg" alt="Muiga" width="100%" />
 
 ## Here's a bit about me:
 
