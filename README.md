@@ -7,8 +7,8 @@
 - 💻 I'm a **full-stack developer** based in Nairobi, Kenya 🇰🇪
 - 🎓 BSc in **Mathematics & Computer Science**
 - 🧩 I build **UI, APIs, payments and product logic**, replacing manual processes with software
-- 🌱 Ask me about: TypeScript, React, Next.js, NestJS, Node.js, PostgreSQL
-- 📝 I write and keep notes at [The Unfolded Origami](https://theunfoldedorigami.com), *ideas, slowly unfolded*
+- 🌱 Ask me about: System Design, Hiking, Cycling
+- 📝 I write and keep notes at [The Unfolded Origami](https://theunfoldedorigami.com)
 
 ## Things I've built:
 
