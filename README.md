@@ -1,59 +1,35 @@
-<div align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=rect&height=160&section=header&text=Steve%20Muiga&fontSize=42&fontColor=ffffff&animation=fadeIn&color=001524,78290f,15616d,ff7d00"
-    width="100%"
-  />
+## Hi there 👋
 
-  <h3><i>Ideas, slowly unfolded.</i></h3>
+<img src="./github-metrics.svg" alt="Steve's GitHub metrics" />
 
-  <p>Full-stack developer · Nairobi, Kenya 🇰🇪<br/>
-  Mathematics &amp; Computer Science, by training and by temperament.</p>
+## Here's a bit about me:
 
-  <a href="https://theunfoldedorigami.com">
-    <img src="https://img.shields.io/badge/Read_my_story-theunfoldedorigami.com-ff7d00?style=for-the-badge&logoColor=ffffff" alt="Portfolio"/>
-  </a>
-</div>
+- 💻 I'm a **full-stack developer** based in Nairobi, Kenya 🇰🇪
+- 🎓 BSc in **Mathematics & Computer Science**
+- 🧩 I build **APIs, payments and product logic**, replacing manual processes with software
+- 🌱 Ask me about: TypeScript, React, Next.js, NestJS, Node.js, PostgreSQL
+- 📝 I write and keep notes at [The Unfolded Origami](https://theunfoldedorigami.com), *ideas, slowly unfolded*
 
-<br/>
+## Things I've built:
 
-## 📐 The fold
+- 💸 **KayaSend**: remittances for the Kenyan diaspora
+- ☁️ **Bechfam**: AWS consulting platform
+- 🥾 **Roam Adventures**: hiking community platform
+- 📦 **Movvapp**: moving services marketplace
+- 🏆 **E4CInsights**: AI policy synthesis tool (prize winner)
 
-Origami starts as a flat sheet. Every crease is a decision, and you can't unfold one without leaving a mark. That's how I like to build software: **deliberate, structured, and honest about what's underneath.**
+More on my [portfolio](https://theunfoldedorigami.com).
 
-My work sits at the intersection of software engineering, product development, and real-world impact. I replace manual processes with software that holds up: APIs, payments, and the business logic nobody sees until it breaks.
+## Tech I use:
 
-I care about **quality, honest communication, and building things that actually work.**
+![TypeScript](https://img.shields.io/badge/TypeScript-2e6849?style=for-the-badge&logo=typescript&logoColor=8abf98&labelColor=0e1a14&color=2e6849)
+![React](https://img.shields.io/badge/React-2e6849?style=for-the-badge&logo=react&logoColor=8abf98&labelColor=0e1a14&color=2e6849)
+![Next.js](https://img.shields.io/badge/Next.js-2e6849?style=for-the-badge&logo=next.js&logoColor=8abf98&labelColor=0e1a14&color=2e6849)
+![Angular](https://img.shields.io/badge/Angular-2e6849?style=for-the-badge&logo=angular&logoColor=8abf98&labelColor=0e1a14&color=2e6849)
+![Node.js](https://img.shields.io/badge/Node.js-2e6849?style=for-the-badge&logo=node.js&logoColor=8abf98&labelColor=0e1a14&color=2e6849)
+![NestJS](https://img.shields.io/badge/NestJS-2e6849?style=for-the-badge&logo=nestjs&logoColor=8abf98&labelColor=0e1a14&color=2e6849)
+![GraphQL](https://img.shields.io/badge/GraphQL-2e6849?style=for-the-badge&logo=graphql&logoColor=8abf98&labelColor=0e1a14&color=2e6849)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-2e6849?style=for-the-badge&logo=postgresql&logoColor=8abf98&labelColor=0e1a14&color=2e6849)
+![Docker](https://img.shields.io/badge/Docker-2e6849?style=for-the-badge&logo=docker&logoColor=8abf98&labelColor=0e1a14&color=2e6849)
 
-## 🗂️ Things I've folded
-
-| | What | Why it matters |
-|---|---|---|
-| 💸 | **KayaSend** | Remittances for the Kenyan diaspora. Money is the least forgiving thing to get wrong. |
-| ☁️ | **Bechfam** | An AWS consulting platform. |
-| 🥾 | **Roam Adventures** | A home for hiking communities. |
-| 📦 | **Movvapp** | A marketplace for moving services. |
-| 🏆 | **E4CInsights** | An AI tool that synthesizes policy. It won a prize. |
-
-More on [the site](https://theunfoldedorigami.com), including the ones that didn't go to plan.
-
-## 🧰 What I reach for
-
-**Frontend** &nbsp; TypeScript · React · Next.js · Angular · Tailwind
-**Backend** &nbsp; Node.js · NestJS · GraphQL · PostgreSQL · MySQL
-**Ship it** &nbsp; Docker · GitHub Actions · Linux · Sentry
-
-## 🔭 Lately
-
-- Thinking about reliability where there's no fallback, which is what government systems and rocketry both taught me.
-- Building for accessibility and fintech.
-- Trying to keep doing things that scare me a little.
-
-## 📫 Say hello
-
-<div align="center">
-
-<a href="mailto:muigastephen14@gmail.com"><img src="https://img.shields.io/badge/Email-muigastephen14@gmail.com-ff7d00?style=for-the-badge&logo=gmail&logoColor=ffffff" alt="Email"/></a>
-<a href="https://linkedin.com/in/stevemuiga"><img src="https://img.shields.io/badge/LinkedIn-Connect-001524?style=for-the-badge&logo=linkedin&logoColor=ff7d00" alt="LinkedIn"/></a>
-<a href="https://theunfoldedorigami.com"><img src="https://img.shields.io/badge/Site-The_Unfolded_Origami-001524?style=for-the-badge&logo=google-chrome&logoColor=ff7d00" alt="Site"/></a>
-
-</div>
+> 📫 How to reach me: [Email](mailto:muigastephen14@gmail.com) · [LinkedIn](https://linkedin.com/in/stevemuiga) · [Portfolio](https://theunfoldedorigami.com)
