@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-<img src="./hero-2.svg" alt="Muiga, Software Developer | Full-Stack" width="100%" />
+<img src="./hero-3.svg" alt="Muiga, Software Developer | Full-Stack" width="100%" />
 
 ## Here's a bit about me:
 
