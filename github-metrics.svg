@@ -1,39 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="495" height="250" viewBox="0 0 495 250" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif">
-<rect x=".5" y=".5" width="494" height="249" rx="10" fill="#0e1a14" stroke="#2e6849"/>
-<text x="24" y="38" font-size="18" font-weight="600" fill="#8abf98">Steve Muiga · GitHub</text>
-<text x="24.0" y="80" font-size="26" font-weight="700" fill="#ffffff">61</text>
-<text x="24.0" y="98" font-size="11" fill="#8abf98">public repos</text>
-<text x="135.75" y="80" font-size="26" font-weight="700" fill="#ffffff">12</text>
-<text x="135.75" y="98" font-size="11" fill="#8abf98">languages</text>
-<text x="247.5" y="80" font-size="26" font-weight="700" fill="#ffffff">39</text>
-<text x="247.5" y="98" font-size="11" fill="#8abf98">followers</text>
-<text x="359.25" y="80" font-size="26" font-weight="700" fill="#ffffff">5</text>
-<text x="359.25" y="98" font-size="11" fill="#8abf98">years on GitHub</text>
-<text x="24" y="132" font-size="12" font-weight="600" fill="#c4935a">MOST USED LANGUAGES</text>
-<g>
-<rect x="24.0" y="142" width="345.8" height="8" fill="#8abf98"/>
-<rect x="369.8" y="142" width="30.9" height="8" fill="#2e6849"/>
-<rect x="400.6" y="142" width="20.3" height="8" fill="#c4935a"/>
-<rect x="421.0" y="142" width="16.6" height="8" fill="#e86c3d"/>
-<rect x="437.6" y="142" width="16.6" height="8" fill="#15616d"/>
-<rect x="454.2" y="142" width="15.9" height="8" fill="#5f9f7a"/>
-</g>
-<circle cx="29.0" cy="172" r="5" fill="#8abf98"/>
-<text x="40.0" y="176" font-size="12" fill="#ffffff">TypeScript</text>
-<text x="120.0" y="176" font-size="12" fill="#8abf98">77.4%</text>
-<circle cx="252.5" cy="172" r="5" fill="#2e6849"/>
-<text x="263.5" y="176" font-size="12" fill="#ffffff">HTML</text>
-<text x="301.5" y="176" font-size="12" fill="#8abf98">6.9%</text>
-<circle cx="29.0" cy="194" r="5" fill="#c4935a"/>
-<text x="40.0" y="198" font-size="12" fill="#ffffff">Dart</text>
-<text x="78.0" y="198" font-size="12" fill="#8abf98">4.5%</text>
-<circle cx="252.5" cy="194" r="5" fill="#e86c3d"/>
-<text x="263.5" y="198" font-size="12" fill="#ffffff">JavaScript</text>
-<text x="343.5" y="198" font-size="12" fill="#8abf98">3.7%</text>
-<circle cx="29.0" cy="216" r="5" fill="#15616d"/>
-<text x="40.0" y="220" font-size="12" fill="#ffffff">CSS</text>
-<text x="71.0" y="220" font-size="12" fill="#8abf98">3.7%</text>
-<circle cx="252.5" cy="216" r="5" fill="#5f9f7a"/>
-<text x="263.5" y="220" font-size="12" fill="#ffffff">Java</text>
-<text x="301.5" y="220" font-size="12" fill="#8abf98">3.5%</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="495" height="318" viewBox="0 0 495 318" font-family="-apple-system,Segoe UI,Helvetica,Arial,sans-serif"><rect width="495" height="318" rx="12" fill="#042f2e"/>
+<rect x="20.0" y="20" width="145.0" height="74" rx="8" fill="#0a423d"/>
+<text x="34.0" y="58" font-size="26" font-weight="700" fill="#e86c3d">1,746</text>
+<text x="34.0" y="78" font-size="11" fill="#8abf98">contributions, past year</text>
+<rect x="175.0" y="20" width="145.0" height="74" rx="8" fill="#0a423d"/>
+<text x="189.0" y="58" font-size="26" font-weight="700" fill="#e86c3d">1</text>
+<text x="189.0" y="78" font-size="11" fill="#8abf98">day streak</text>
+<rect x="330.0" y="20" width="145.0" height="74" rx="8" fill="#0a423d"/>
+<text x="344.0" y="58" font-size="26" font-weight="700" fill="#e86c3d">14</text>
+<text x="344.0" y="78" font-size="11" fill="#8abf98">longest streak</text>
+<rect x="20" y="104" width="455" height="78" rx="8" fill="#0a423d"/>
+<text x="34" y="128" font-size="11" font-weight="600" fill="#e86c3d">TOP LANGUAGE</text>
+<text x="34" y="154" font-size="20" font-weight="700" fill="#f0e6d2">TypeScript</text>
+<text x="162" y="154" font-size="14" fill="#8abf98">77%</text>
+<rect x="34.0" y="164" width="330.1" height="6" fill="#e86c3d"/>
+<rect x="364.1" y="164" width="29.5" height="6" fill="#8abf98"/>
+<rect x="393.6" y="164" width="19.4" height="6" fill="#2e6849"/>
+<rect x="413.0" y="164" width="15.9" height="6" fill="#c4935a"/>
+<rect x="428.9" y="164" width="15.8" height="6" fill="#5f9f7a"/>
+<rect x="444.7" y="164" width="15.1" height="6" fill="#15616d"/>
+<rect x="20" y="192" width="455" height="106" rx="8" fill="#0a423d"/>
+<text x="34" y="216" font-size="11" font-weight="600" fill="#e86c3d">ORGANIZATIONS</text>
+<rect x="34" y="228" width="134" height="24" rx="12" fill="#2e6849"/>
+<text x="45" y="244" font-size="12" fill="#f0e6d2">Nakuja project</text>
+<rect x="176" y="228" width="110" height="24" rx="12" fill="#2e6849"/>
+<text x="187" y="244" font-size="12" fill="#f0e6d2">Anga-Afrika</text>
+<rect x="294" y="228" width="110" height="24" rx="12" fill="#2e6849"/>
+<text x="305" y="244" font-size="12" fill="#f0e6d2">innov8pulse</text>
+<rect x="34" y="260" width="102" height="24" rx="12" fill="#2e6849"/>
+<text x="45" y="276" font-size="12" fill="#f0e6d2">Piranha MG</text>
+<rect x="144" y="260" width="158" height="24" rx="12" fill="#2e6849"/>
+<text x="155" y="276" font-size="12" fill="#f0e6d2">Sity Technologies</text>
+<rect x="310" y="260" width="94" height="24" rx="12" fill="#2e6849"/>
+<text x="321" y="276" font-size="12" fill="#f0e6d2">ORIGIN HQ</text>
 </svg>
