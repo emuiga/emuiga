@@ -5,15 +5,12 @@
 ## Here's a bit about me:
 
 - 💻 I'm a **full-stack developer** based in Nairobi, Kenya 🇰🇪
-- 🎓 BSc in **Mathematics & Computer Science**
 - 🧩 I build **UI, APIs, payments and product logic**, replacing manual processes with software
 - 🌱 Ask me about: System Design, Hiking, Cycling
-- 📝 I write and keep notes at [The Unfolded Origami](https://theunfoldedorigami.com)
 
 ## Things I've built:
 
 - 🛠️ **KIFWA**: multi-tenant bond and indemnity platform for 2,000+ clearing agents, insurers and freight providers
-- 💸 **KayaSend**: remittances for the Kenyan diaspora
 - 🏆 **E4CInsights**: AI policy synthesis tool (global prize winner)
 
 More on my [portfolio](https://theunfoldedorigami.com).
